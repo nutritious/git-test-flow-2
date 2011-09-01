@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9521AC614102E20001A4EDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9521AC514102E20001A4EDB /* UIKit.framework */; };
+		F9521AC814102E20001A4EDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9521AC714102E20001A4EDB /* Foundation.framework */; };
+		F9521ACA14102E20001A4EDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9521AC914102E20001A4EDB /* CoreGraphics.framework */; };
+		F9521AD014102E20001A4EDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9521ACE14102E20001A4EDB /* InfoPlist.strings */; };
+		F9521AD314102E20001A4EDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9521AD214102E20001A4EDB /* main.m */; };
+		F9521AD614102E20001A4EDB /* GitFlowTestApp2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9521AD514102E20001A4EDB /* GitFlowTestApp2AppDelegate.m */; };
+		F9521AD914102E20001A4EDB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9521AD714102E20001A4EDB /* MainWindow.xib */; };
+		F9521ADC14102E20001A4EDB /* GitFlowTestApp2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9521ADB14102E20001A4EDB /* GitFlowTestApp2ViewController.m */; };
+		F9521ADF14102E20001A4EDB /* GitFlowTestApp2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9521ADD14102E20001A4EDB /* GitFlowTestApp2ViewController.xib */; };
+		F9521AE614102E20001A4EDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9521AC514102E20001A4EDB /* UIKit.framework */; };
+		F9521AE714102E20001A4EDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9521AC714102E20001A4EDB /* Foundation.framework */; };
+		F9521AE814102E20001A4EDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9521AC914102E20001A4EDB /* CoreGraphics.framework */; };
+		F9521AF014102E20001A4EDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9521AEE14102E20001A4EDB /* InfoPlist.strings */; };
+		F9521AF314102E20001A4EDB /* GitFlowTestApp2Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = F9521AF214102E20001A4EDB /* GitFlowTestApp2Tests.h */; };
+		F9521AF514102E20001A4EDB /* GitFlowTestApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9521AF414102E20001A4EDB /* GitFlowTestApp2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9521AE914102E20001A4EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9521AB814102E20001A4EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9521AC014102E20001A4EDB;
+			remoteInfo = GitFlowTestApp2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9521AC114102E20001A4EDB /* GitFlowTestApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFlowTestApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9521AC514102E20001A4EDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9521AC714102E20001A4EDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9521AC914102E20001A4EDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9521ACD14102E20001A4EDB /* GitFlowTestApp2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitFlowTestApp2-Info.plist"; sourceTree = "<group>"; };
+		F9521ACF14102E20001A4EDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9521AD114102E20001A4EDB /* GitFlowTestApp2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitFlowTestApp2-Prefix.pch"; sourceTree = "<group>"; };
+		F9521AD214102E20001A4EDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9521AD414102E20001A4EDB /* GitFlowTestApp2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitFlowTestApp2AppDelegate.h; sourceTree = "<group>"; };
+		F9521AD514102E20001A4EDB /* GitFlowTestApp2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitFlowTestApp2AppDelegate.m; sourceTree = "<group>"; };
+		F9521AD814102E20001A4EDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F9521ADA14102E20001A4EDB /* GitFlowTestApp2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitFlowTestApp2ViewController.h; sourceTree = "<group>"; };
+		F9521ADB14102E20001A4EDB /* GitFlowTestApp2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitFlowTestApp2ViewController.m; sourceTree = "<group>"; };
+		F9521ADE14102E20001A4EDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GitFlowTestApp2ViewController.xib; sourceTree = "<group>"; };
+		F9521AE514102E20001A4EDB /* GitFlowTestApp2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitFlowTestApp2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9521AED14102E20001A4EDB /* GitFlowTestApp2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitFlowTestApp2Tests-Info.plist"; sourceTree = "<group>"; };
+		F9521AEF14102E20001A4EDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9521AF114102E20001A4EDB /* GitFlowTestApp2Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitFlowTestApp2Tests-Prefix.pch"; sourceTree = "<group>"; };
+		F9521AF214102E20001A4EDB /* GitFlowTestApp2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitFlowTestApp2Tests.h; sourceTree = "<group>"; };
+		F9521AF414102E20001A4EDB /* GitFlowTestApp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitFlowTestApp2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9521ABE14102E20001A4EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9521AC614102E20001A4EDB /* UIKit.framework in Frameworks */,
+				F9521AC814102E20001A4EDB /* Foundation.framework in Frameworks */,
+				F9521ACA14102E20001A4EDB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9521AE114102E20001A4EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9521AE614102E20001A4EDB /* UIKit.framework in Frameworks */,
+				F9521AE714102E20001A4EDB /* Foundation.framework in Frameworks */,
+				F9521AE814102E20001A4EDB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9521AB614102E20001A4EDB = {
+			isa = PBXGroup;
+			children = (
+				F9521ACB14102E20001A4EDB /* GitFlowTestApp2 */,
+				F9521AEB14102E20001A4EDB /* GitFlowTestApp2Tests */,
+				F9521AC414102E20001A4EDB /* Frameworks */,
+				F9521AC214102E20001A4EDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9521AC214102E20001A4EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9521AC114102E20001A4EDB /* GitFlowTestApp2.app */,
+				F9521AE514102E20001A4EDB /* GitFlowTestApp2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9521AC414102E20001A4EDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9521AC514102E20001A4EDB /* UIKit.framework */,
+				F9521AC714102E20001A4EDB /* Foundation.framework */,
+				F9521AC914102E20001A4EDB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9521ACB14102E20001A4EDB /* GitFlowTestApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				F9521AD414102E20001A4EDB /* GitFlowTestApp2AppDelegate.h */,
+				F9521AD514102E20001A4EDB /* GitFlowTestApp2AppDelegate.m */,
+				F9521AD714102E20001A4EDB /* MainWindow.xib */,
+				F9521ADA14102E20001A4EDB /* GitFlowTestApp2ViewController.h */,
+				F9521ADB14102E20001A4EDB /* GitFlowTestApp2ViewController.m */,
+				F9521ADD14102E20001A4EDB /* GitFlowTestApp2ViewController.xib */,
+				F9521ACC14102E20001A4EDB /* Supporting Files */,
+			);
+			path = GitFlowTestApp2;
+			sourceTree = "<group>";
+		};
+		F9521ACC14102E20001A4EDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9521ACD14102E20001A4EDB /* GitFlowTestApp2-Info.plist */,
+				F9521ACE14102E20001A4EDB /* InfoPlist.strings */,
+				F9521AD114102E20001A4EDB /* GitFlowTestApp2-Prefix.pch */,
+				F9521AD214102E20001A4EDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9521AEB14102E20001A4EDB /* GitFlowTestApp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F9521AF214102E20001A4EDB /* GitFlowTestApp2Tests.h */,
+				F9521AF414102E20001A4EDB /* GitFlowTestApp2Tests.m */,
+				F9521AEC14102E20001A4EDB /* Supporting Files */,
+			);
+			path = GitFlowTestApp2Tests;
+			sourceTree = "<group>";
+		};
+		F9521AEC14102E20001A4EDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9521AED14102E20001A4EDB /* GitFlowTestApp2Tests-Info.plist */,
+				F9521AEE14102E20001A4EDB /* InfoPlist.strings */,
+				F9521AF114102E20001A4EDB /* GitFlowTestApp2Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9521AC014102E20001A4EDB /* GitFlowTestApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9521AF814102E20001A4EDB /* Build configuration list for PBXNativeTarget "GitFlowTestApp2" */;
+			buildPhases = (
+				F9521ABD14102E20001A4EDB /* Sources */,
+				F9521ABE14102E20001A4EDB /* Frameworks */,
+				F9521ABF14102E20001A4EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitFlowTestApp2;
+			productName = GitFlowTestApp2;
+			productReference = F9521AC114102E20001A4EDB /* GitFlowTestApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9521AE414102E20001A4EDB /* GitFlowTestApp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9521AFB14102E20001A4EDB /* Build configuration list for PBXNativeTarget "GitFlowTestApp2Tests" */;
+			buildPhases = (
+				F9521AE014102E20001A4EDB /* Sources */,
+				F9521AE114102E20001A4EDB /* Frameworks */,
+				F9521AE214102E20001A4EDB /* Resources */,
+				F9521AE314102E20001A4EDB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9521AEA14102E20001A4EDB /* PBXTargetDependency */,
+			);
+			name = GitFlowTestApp2Tests;
+			productName = GitFlowTestApp2Tests;
+			productReference = F9521AE514102E20001A4EDB /* GitFlowTestApp2Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9521AB814102E20001A4EDB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F9521ABB14102E20001A4EDB /* Build configuration list for PBXProject "GitFlowTestApp2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9521AB614102E20001A4EDB;
+			productRefGroup = F9521AC214102E20001A4EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9521AC014102E20001A4EDB /* GitFlowTestApp2 */,
+				F9521AE414102E20001A4EDB /* GitFlowTestApp2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9521ABF14102E20001A4EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9521AD014102E20001A4EDB /* InfoPlist.strings in Resources */,
+				F9521AD914102E20001A4EDB /* MainWindow.xib in Resources */,
+				F9521ADF14102E20001A4EDB /* GitFlowTestApp2ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9521AE214102E20001A4EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9521AF014102E20001A4EDB /* InfoPlist.strings in Resources */,
+				F9521AF314102E20001A4EDB /* GitFlowTestApp2Tests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F9521AE314102E20001A4EDB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9521ABD14102E20001A4EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9521AD314102E20001A4EDB /* main.m in Sources */,
+				F9521AD614102E20001A4EDB /* GitFlowTestApp2AppDelegate.m in Sources */,
+				F9521ADC14102E20001A4EDB /* GitFlowTestApp2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9521AE014102E20001A4EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9521AF514102E20001A4EDB /* GitFlowTestApp2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9521AEA14102E20001A4EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9521AC014102E20001A4EDB /* GitFlowTestApp2 */;
+			targetProxy = F9521AE914102E20001A4EDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9521ACE14102E20001A4EDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9521ACF14102E20001A4EDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F9521AD714102E20001A4EDB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9521AD814102E20001A4EDB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F9521ADD14102E20001A4EDB /* GitFlowTestApp2ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9521ADE14102E20001A4EDB /* en */,
+			);
+			name = GitFlowTestApp2ViewController.xib;
+			sourceTree = "<group>";
+		};
+		F9521AEE14102E20001A4EDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9521AEF14102E20001A4EDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9521AF614102E20001A4EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9521AF714102E20001A4EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F9521AF914102E20001A4EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitFlowTestApp2/GitFlowTestApp2-Prefix.pch";
+				INFOPLIST_FILE = "GitFlowTestApp2/GitFlowTestApp2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F9521AFA14102E20001A4EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitFlowTestApp2/GitFlowTestApp2-Prefix.pch";
+				INFOPLIST_FILE = "GitFlowTestApp2/GitFlowTestApp2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F9521AFC14102E20001A4EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GitFlowTestApp2.app/GitFlowTestApp2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitFlowTestApp2Tests/GitFlowTestApp2Tests-Prefix.pch";
+				INFOPLIST_FILE = "GitFlowTestApp2Tests/GitFlowTestApp2Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F9521AFD14102E20001A4EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GitFlowTestApp2.app/GitFlowTestApp2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitFlowTestApp2Tests/GitFlowTestApp2Tests-Prefix.pch";
+				INFOPLIST_FILE = "GitFlowTestApp2Tests/GitFlowTestApp2Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9521ABB14102E20001A4EDB /* Build configuration list for PBXProject "GitFlowTestApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9521AF614102E20001A4EDB /* Debug */,
+				F9521AF714102E20001A4EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9521AF814102E20001A4EDB /* Build configuration list for PBXNativeTarget "GitFlowTestApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9521AF914102E20001A4EDB /* Debug */,
+				F9521AFA14102E20001A4EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9521AFB14102E20001A4EDB /* Build configuration list for PBXNativeTarget "GitFlowTestApp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9521AFC14102E20001A4EDB /* Debug */,
+				F9521AFD14102E20001A4EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9521AB814102E20001A4EDB /* Project object */;
+}
